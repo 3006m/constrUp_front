@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white p-8">
     <div class="max-w-5xl mx-auto">
       <div class="flex justify-between items-center mb-8">
-        <h1 class="text-3xl font-bold">Produtos</h1>
+        <h1 class="text-3xl font-bold">Desfio técnico | ConstrUp</h1>
         <router-link
           to="/criar"
           class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition"
