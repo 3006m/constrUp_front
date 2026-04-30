@@ -1,38 +1,36 @@
-# constrUp_desafio_front
+# constrUp Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Interface web desenvolvida em Vue.js para teste técnico.
 
-## Recommended IDE Setup
+## Tecnologias
+- Vue.js 3
+- Vue Router
+- Axios
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Requisitos
+- Node.js >= 18
+- npm
 
-## Recommended Browser Setup
+## Como rodar
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/3006m/constrUp_front.git
+cd constrUp_front
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+### 2. Instalar dependências
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+### 3. Iniciar o servidor
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+O frontend estará disponível em `http://localhost:5173`
 
-```sh
-npm run build
-```
+## Observações
+- O backend deve estar rodando em `http://127.0.0.1:8000`
+- Certifique-se de ter criado o banco de dados e rodado as migrations antes de usar o frontend
